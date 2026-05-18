@@ -324,8 +324,8 @@ const experiences = [
   },
   {
     color: COLORS.cyan, colorRaw: "6,182,212",
-    title: "AI Intern",
-    company: "Software Productivity Strategists (SPS), NSTP NUST", type: "Internship",
+    title: "AI Automation Engineer",
+    company: "Software Productivity Strategists (SPS), NSTP NUST", type: "Remote Job",
     date: "Jul 2025 – Sep 2025", loc: "Islamabad, Pakistan",
     bullets: [
       "Assisted in developing and implementing AI/ML solutions for real-world applications",
@@ -336,8 +336,8 @@ const experiences = [
   },
   {
     color: COLORS.neonGreen, colorRaw: "40,200,64",
-    title: "Machine Learning Engineer Intern",
-    company: "Singularity AI Labs", type: "Internship",
+    title: "Machine Learning Engineer",
+    company: "Singularity AI Labs", type: "Remote Job",
     date: "Jun 2025 – Aug 2025", loc: "Pakistan",
     bullets: [
       "Collected, cleaned, and preprocessed data for machine learning pipelines",
@@ -397,7 +397,7 @@ const testimonials = [
   { quote: "His RAG-based chatbot for our internal knowledge base was exactly what we needed. Attique understood the architecture immediately and delivered faster than expected.", name: "Sara Malik", role: "AI Product Lead, DataNest", initials: "SM" },
   { quote: "We hired Attique for a voice agent automation project. The Vapi integration and Make.com workflows he designed saved our team hours of manual work every single day.", name: "James Okafor", role: "Founder, CallFlow AI", initials: "JO" },
   { quote: "Attique's ML model for our recommendation engine was thoughtfully engineered. He asked the right questions upfront and delivered a robust, production-ready solution.", name: "Priya Nair", role: "ML Engineer, RecoStack", initials: "PN" },
-  { quote: "Excellent intern. Attique was proactive, took ownership of tasks, and consistently delivered clean, well-commented code. A genuine asset to the team.", name: "Dr. Usman Tariq", role: "AI Research Lead, SPS NUST", initials: "UT" },
+  { quote: "Attique was proactive, took ownership of tasks, and consistently delivered clean, well-commented code. A genuine asset to the team.", name: "Dr. Usman Tariq", role: "AI Research Lead, SPS NUST", initials: "UT" },
   { quote: "The movie recommendation app Attique built is fast, visually clean, and the cosine similarity matching is surprisingly accurate. Great work for a solo developer.", name: "Bilal Chaudhry", role: "Senior Engineer, TechPak", initials: "BC" },
 ];
 
@@ -744,7 +744,7 @@ export default function Portfolio() {
           <div className="about-grid-wrap" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,460px),1fr))", gap: 48, alignItems: "start" }}>
             <RevealDiv>
               <p style={{ fontSize: 16, lineHeight: 1.85, color: COLORS.textSecondary, marginBottom: 36 }}>
-                AI &amp; Machine Learning Engineer specializing in building intelligent automation systems, NLP pipelines, and production-ready ML models. Currently pursuing BS in Computer Science at NUTECH Islamabad with hands-on industry experience across AI internships and freelance automation work on Upwork. Passionate about turning complex data problems into scalable AI-driven solutions — from multimodal emotion detection to autonomous AI voice agents.
+                AI &amp; Machine Learning Engineer specializing in building intelligent automation systems, NLP pipelines, and production-ready ML models. BS in Computer Science from National University of Technology (NUTECH) Islamabad with hands-on industry experience across AI and freelance automation work on Upwork. Passionate about turning complex data problems into scalable AI-driven solutions — from multimodal emotion detection to autonomous AI voice agents.
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: 14, marginBottom: 36 }}>
                 {[
